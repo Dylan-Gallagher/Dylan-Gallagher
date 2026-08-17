@@ -1,12 +1,20 @@
 # Dylan Gallagher
 
-**Construction robotics in Rust.** Simulation-first, no ROS. Dublin.
+**Real-time systems in Rust and C++ — video, edge compute, and robotics.** Dublin.
 
 In structured environments the hardware is catalog. The cost moved to software —
 perception, planning, control, fleets. I'm proving that software first, in public,
 without a robot.
 
 ![UR5e pick-and-place in MuJoCo](https://github.com/Dylan-Gallagher/arm-lab/raw/main/docs/demo3.gif)
+
+## Video and edge systems
+
+| Repo | Focus | What you can check |
+|---|---|---|
+| [FieldCast](https://github.com/Dylan-Gallagher/fieldcast) | Rust + GStreamer | Real-time two-camera composition and H.264/MP4 output; custom zero-copy continuity element, structured timestamp diagnostics, clean-EOS drain, real media smoke test in CI |
+| [FrameForge VK](https://github.com/Dylan-Gallagher/frameforge-vk) | C++20 + Vulkan compute | Chained grayscale/Sobel shaders with explicit barriers and timestamp queries; **1.67 ms** at 1080p on RX 5600 XT vs **3.76 ms** CPU (**2.25x**), max error below **3e-7** |
+| [TrailVision](https://github.com/Dylan-Gallagher/trailvision) | Multimodal sports video | Auditable voice/IMU/vision event fusion, SQLite replay, FastAPI, and responsive review UI; deterministic demo fuses **17 candidates → 6 events → 3 runs** |
 
 ## Robotics stack
 
