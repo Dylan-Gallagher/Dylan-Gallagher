@@ -20,6 +20,12 @@ without a robot.
 
 ## Upstream robotics work
 
+Accepted upstream:
+
+| Project | Change | Verification |
+|---|---|---|
+| [ROS Controls #2567](https://github.com/ros-controls/ros2_controllers/pull/2567) | Adds closed-form bicycle, tricycle, and Ackermann integration tests | Maintainer-approved and merged; exact Rolling package passed 32/32 tests |
+
 Selected patches currently under maintainer review:
 
 | Project | Change | Verification |
