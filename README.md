@@ -12,7 +12,7 @@ without a robot.
 
 | Repo | Layer | What you can check |
 |---|---|---|
-| [arm-lab](https://github.com/Dylan-Gallagher/arm-lab) | Manipulation | UR5e from scratch; [predeclared 300-query simulation benchmark](https://github.com/Dylan-Gallagher/arm-lab/blob/main/docs/randomized_eval_results.md): RRT-Connect **46.0%** vs **27.7%** direct, velocity-FF **90/138** full passes |
+| [arm-lab v0.3.0](https://github.com/Dylan-Gallagher/arm-lab/releases/tag/v0.3.0) | Manipulation | UR5e from scratch; [corner-stop derivative audit](https://github.com/Dylan-Gallagher/arm-lab/blob/v0.3.0/docs/corner_stop_results.md): peak v/a/j **0.550/1.799/7.996** (rad/s, rad/s², rad/s³), within declared limits; [300-query benchmark](https://github.com/Dylan-Gallagher/arm-lab/blob/v0.3.0/docs/randomized_eval_results.md): RRT-Connect **46.0%** vs **27.7%** direct, velocity-FF **90/138** full passes |
 | [synthscan](https://github.com/Dylan-Gallagher/synthscan) | Perception | Synthetic depth cameras and a point-cloud toolkit in Rust — no PCL |
 | [girder](https://github.com/Dylan-Gallagher/girder) | Middleware | ROS-free typed pub/sub: **420 ns** p50 in-process, bit-exact `.gdr` replay in CI |
 | [rust-robotics-toolbox](https://github.com/Dylan-Gallagher/rust-robotics-toolbox) | Foundations | MuJoCo, Bevy, ONNX Runtime, Burn on Vulkan — smoke-tested on AMD |
