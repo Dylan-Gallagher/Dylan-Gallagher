@@ -18,6 +18,16 @@ without a robot.
 | [rust-robotics-toolbox](https://github.com/Dylan-Gallagher/rust-robotics-toolbox) | Foundations | MuJoCo, Bevy, ONNX Runtime, Burn on Vulkan — smoke-tested on AMD |
 | [robotarium-weighted-coverage](https://github.com/Dylan-Gallagher/robotarium-weighted-coverage) | Multi-robot | Fixed-seed eight-robot density-weighted coverage with barrier certificates |
 
+## Upstream robotics work
+
+Selected patches currently under maintainer review:
+
+| Project | Change | Verification |
+|---|---|---|
+| [Gazebo Sensors #640](https://github.com/gazebosim/gz-sensors/pull/640) | Bounds reused thermal and segmentation message headers instead of appending one entry per frame | Full local suite; Homebrew ARM64, Ubuntu, and Windows hosted builds green |
+| [ros2-rust #669](https://github.com/ros2-rust/ros2_rust/pull/669) | Coalesces duplicate executor task wakes while preserving wake-during-poll | Nine hosted builds green across Humble, Jazzy, Kilted, and Rolling |
+| [RViz #1837](https://github.com/ros2/rviz/pull/1837) | Surfaces incompatible QoS as a visible error and recovers after compatible traffic arrives | Fast DDS reproduction; exact core and downstream display checks pass locally |
+
 ## Current challenge
 
 [IROS 2026 Indoor Exploration Competition](https://frostlab.byu.edu/IIG-workshop/competition/) — CPU-only policy. On a released single-robot map: **65.17%** base-station coverage vs **35.02%** nearest-frontier baseline in matched local runs. Cross-map and hidden-start robustness testing is in progress.
