@@ -10,6 +10,7 @@ without a robot.
 
 | Repo | Focus | What you can check |
 |---|---|---|
+| [Boundaryd](https://github.com/Dylan-Gallagher/boundaryd) | Rust policy gateway | Offline-capable decide API with PostGIS geofences, hash-chained audit, transactional outbox; **2.53M evals/s** in-process; cached HTTP **15.3k rps** / p50 **0.99 ms** on a Ryzen 5 3600 |
 | [Staylock](https://github.com/Dylan-Gallagher/staylock) | Java 21 inventory | Hotel reservation ledger with a last-room oracle: **200 concurrent guests → 1 hold / 199 sold out / 0 remaining**, asserted in CI; explainable ranking; hold-then-confirm API and public demo UI |
 
 ![UR5e pick-and-place in MuJoCo](https://github.com/Dylan-Gallagher/arm-lab/raw/main/docs/demo3.gif)
