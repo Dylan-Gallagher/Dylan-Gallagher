@@ -1,10 +1,16 @@
 # Dylan Gallagher
 
-**Real-time systems in Rust and C++ — video, edge compute, and robotics.** Dublin.
+**Concurrent systems — Java backends, Rust/C++ robotics, video and edge.** Dublin.
 
 In structured environments the hardware is catalog. The cost moved to software —
 perception, planning, control, fleets. I'm proving that software first, in public,
 without a robot.
+
+## Backend
+
+| Repo | Focus | What you can check |
+|---|---|---|
+| [Staylock](https://github.com/Dylan-Gallagher/staylock) | Java 21 inventory | Hotel reservation ledger with a last-room oracle: **200 concurrent guests → 1 hold / 199 sold out / 0 remaining**, asserted in CI; explainable ranking; hold-then-confirm API and public demo UI |
 
 ![UR5e pick-and-place in MuJoCo](https://github.com/Dylan-Gallagher/arm-lab/raw/main/docs/demo3.gif)
 
