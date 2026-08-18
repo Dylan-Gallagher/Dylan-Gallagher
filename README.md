@@ -25,6 +25,7 @@ without a robot.
 | [girder](https://github.com/Dylan-Gallagher/girder) | Middleware | ROS-free typed pub/sub: **420 ns** p50 in-process, bit-exact `.gdr` replay in CI |
 | [rust-robotics-toolbox](https://github.com/Dylan-Gallagher/rust-robotics-toolbox) | Foundations | MuJoCo, Bevy, ONNX Runtime, Burn on Vulkan — smoke-tested on AMD |
 | [robotarium-weighted-coverage](https://github.com/Dylan-Gallagher/robotarium-weighted-coverage) | Multi-robot | Fixed-seed eight-robot density-weighted coverage with barrier certificates |
+| [earth-rover-urban-pilot](https://github.com/Dylan-Gallagher/earth-rover-urban-pilot/releases/tag/v0.1.0) | Rover readiness | SDK-shaped controller; [100-seed fault matrix](https://github.com/Dylan-Gallagher/earth-rover-urban-pilot/blob/v0.1.0/evidence/REPORT.md) cuts commanded outage motion **63.0%**; [5,408-frame real-rover-footage replay](https://github.com/Dylan-Gallagher/earth-rover-urban-pilot/blob/v0.1.0/evidence/VISION_REPORT.md) exercises gross camera-health faults; **no hardware run** |
 
 ## Upstream robotics work
 
