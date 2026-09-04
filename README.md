@@ -1,10 +1,5 @@
 # Dylan Gallagher
 
-**Concurrent systems — Java backends, Rust/C++ robotics, video and edge.** Dublin.
-
-In structured environments the hardware is catalog. The cost moved to software —
-perception, planning, control, fleets. I'm proving that software first, in public,
-without a robot.
 
 ## Backend
 
